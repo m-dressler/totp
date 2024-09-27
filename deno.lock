@@ -1,0 +1,14 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/dotenv": "jsr:@std/dotenv@0.220.1"
+    },
+    "jsr": {
+      "@std/dotenv@0.220.1": {
+        "integrity": "cf7e6f793b65ae7af1d29e3cea373cd69e21f98b096ee4a58588b4cdbc06cf31"
+      }
+    }
+  },
+  "remote": {}
+}
