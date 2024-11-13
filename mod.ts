@@ -48,7 +48,7 @@ export default async function getTotp(
   );
   new DataView(counterBuffer.buffer).setBigInt64(0, t);
 
-  const key = await window.crypto.subtle.importKey(
+  const key = await globalThis.crypto.subtle.importKey(
     "raw",
     base32ToUint8Array(token),
     { name: "HMAC", hash: "SHA-1" },
